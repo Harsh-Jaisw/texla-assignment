@@ -1,0 +1,12 @@
+.dashboardMain {
+  display: flex;
+}
+.sideBar {
+  width: 17%;
+}
+.MainContent {
+  /* border:1px solid red; */
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}

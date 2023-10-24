@@ -1,0 +1,28 @@
+.Main{
+    padding: .8rem;
+    box-sizing: border-box;
+    margin-left: 2rem;
+}
+.listType{
+    display: flex;
+    justify-content: end;
+    gap:1rem;
+    box-sizing: border-box;
+    color: grey;
+    font-size: 18px;
+    margin-left: -2rem;
+    margin-right: -4rem;
+}
+.listType :nth-child(1){
+    flex:1;
+    justify-content: start;
+}
+
+.userImage{
+    border-radius: 100%;
+}
+
+.footerDiv{
+display: flex;
+gap:10px
+}

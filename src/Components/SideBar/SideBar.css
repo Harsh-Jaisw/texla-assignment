@@ -1,0 +1,58 @@
+.SideBarSection {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: start;
+  padding: 2rem;
+  gap:4rem;
+  height:100%;
+  box-sizing: border-box;
+  border: 1px dotted lightgrey;
+}
+.listTypeSideBar {
+  padding: 0;
+  margin: 0;
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.sidebarHeading {
+  font-family: Public Sans;
+  color: grey;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.listItem {
+  display: flex;
+  flex:1;
+  justify-content: start;
+  align-items: center;
+  padding: .3rem;
+  gap: 4px;
+}
+.listItem:hover {
+  cursor: pointer;
+}
+
+.listItem:focus {
+  position: relative;
+}
+.listItem:focus::after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  border-radius:6px;
+  background: rgba(51, 102, 255, 0.08);
+  height: 50px;
+  top:-8px;
+  bottom: 0;
+  left: 0;
+}
+.listItem:nth-child(4){
+    display: flex;
+    flex:1;
+    justify-content: end;
+}
